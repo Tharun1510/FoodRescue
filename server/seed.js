@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 dotenv.config();
 import connectDB from "./config/db.js";
-import foodItem from "./models/foodItem.js";
+import foodItem from "./models/FoodItem.js";
 connectDB();
 const importData = async()=>{
     try {        

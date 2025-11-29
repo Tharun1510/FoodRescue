@@ -1,5 +1,5 @@
 import { GoogleGenAI } from "@google/genai";
-import foodItem from "../models/foodItem.js";
+import foodItem from "../models/FoodItem.js";
 export const  addFoodItem = async(req,res) =>{
     const{ title, description, price, latitude,longitude } = req.body;
     try {

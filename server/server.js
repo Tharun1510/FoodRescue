@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import connectDB from './config/db.js';
 import router from './routes/foodRoutes.js';
-import foodItem from './models/foodItem.js';
+import foodItem from './models/FoodItem.js';
 import { Server } from 'socket.io';
 import http from 'http'
 import { Socket } from 'dgram';

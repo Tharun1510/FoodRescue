@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import connectDB from './config/db.js';
-import foodItem from './models/foodItem.js';
+import foodItem from './models/FoodItem.js';
 dotenv.config();
 const runDiagnostics = async () => {
   try {
