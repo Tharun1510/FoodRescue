@@ -51,4 +51,4 @@ const foodItemSchema = new mongoose.Schema({
     timestamps:true
 });
 foodItemSchema.index({location:'2dsphere'});
-export default mongoose.model('FoodItem',foodItemSchema);
+export default mongoose.model('foodItem',foodItemSchema);
