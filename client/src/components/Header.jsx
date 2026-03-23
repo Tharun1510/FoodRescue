@@ -55,7 +55,7 @@ const Header = ({ foodCount, onFileChange }) => {
           to="/login"
           className="bg-green-800 text-white px-4 py-2 rounded-full font-bold text-sm hover:bg-green-900 border border-green-500"
         >
-          Partner Login Via 
+        Login Partner
         </Link>
       )}
       
