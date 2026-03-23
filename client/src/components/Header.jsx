@@ -31,7 +31,7 @@ const Header = ({ foodCount, onFileChange }) => {
   return (
     <div className="bg-green-600 p-4 text-white shadow-md z-10 flex justify-between items-center">
       <div>
-        <h1 className="text-xl font-bold">🍩 Food Rescue AI</h1>
+        <h1 className="text-xl font-bold"> Food Recovery AI</h1>
         <p className="text-xs">Found {foodCount} items nearby</p>
       </div>
       
@@ -55,7 +55,7 @@ const Header = ({ foodCount, onFileChange }) => {
           to="/login"
           className="bg-green-800 text-white px-4 py-2 rounded-full font-bold text-sm hover:bg-green-900 border border-green-500"
         >
-          Partner Login
+        Login Partner
         </Link>
       )}
       
